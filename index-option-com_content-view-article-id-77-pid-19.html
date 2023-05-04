@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="/index" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Variability Expedition, hardware, software, Calit2, UCSD, highly energy efficient" />
+  <meta name="title" content="Project" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="The Variability Expedition fundamentally rethinks the rigid, deterministic hardware-software interface, to propose a new class of computing machines that are not only adaptive but also highly energy efficient." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Project</title>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+<link href="/templates/system/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jofree/css/template_css.css" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="/templates/jofree/css/ie6.css" type="text/css" />
+<![endif]-->
+
+</head>
+<body>
+<div id="bgr">
+
+<div id="wrapper">
+<div id="tophead">
+<!-- BEGIN: LOGO -->
+
+<!-- END: LOGO -->
+
+
+
+</div>
+
+<div id="wrapper_2">
+<div id="holder">
+
+
+<div id="content">
+<div id="left">
+		<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Main Menu</h3>
+											<ul class="menu"><li class="item1"><a href="/"><span>Home</span></a></li><li class="item53"><a href="/research"><span>Research Projects</span></a></li><li class="item54"><a href="/testbeds"><span>Testbeds</span></a></li><li class="item55"><a href="/outreach"><span>Outreach</span></a></li><li class="item58"><a href="/people"><span>People</span></a></li><li class="item66"><a href="/news"><span>News</span></a></li><li class="item67"><a href="/events"><span>Events</span></a></li><li class="item68"><a href="/multimedia"><span>Multimedia</span></a></li><li class="item71"><a href="/publications"><span>Publications</span></a></li><li class="item72"><a href="/presentations"><span>Presentations</span></a></li><li class="item73"><a href="/downloads"><span>Tools and Datasets</span></a></li></ul>					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+<div id="main_full">
+<div class="nopad">
+
+
+
+
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p>
+      
+ <h3 style="margin-top:0px;">Circuit-Level Monitors for Power, Performance, Aging and Reliability</h3>
+ <br>
+ <div style="overflow:hidden;">
+
+<div id="p_box_l"> 
+  <p>This project aims at developing hardware components of the software-driven variability solutions proposed in the Expedition.  The hardware outcomes will provide data about, and mechanisms to cope with, the underlying variations including aging, temporal variation, process, and temperature.  We seek compact, accurate, and in many cases in situ, sensing techniques to enable software better visibility into the technology platform.<br />
+<br />
+Another goal of this project is to develop inexpensive performance monitoring strategies so that hardware performance signatures can be generated and reported to software. Current work focuses on algorithmically synthesizing multiple ring oscillators which collectively allow accurate prediction of frequency under process, Vdd and temperature variations.<br />
+<br />
+As part of this project, we proposed a low power unified oxide and NBTI degradation sensor designed in 45nm process node. The cell power consumption is 105 lower than a previously proposed sensor. The unified nature enables efficient reliability monitoring with reduced sensor deployment effort and area overhead. Using the sensor Dynamic NBTI Management (DNM) has been implemented for the first time. DNM trades the excess ‘reliability-margin’ present in the design, due to better than worst case operating conditions, with performance. For the typical case shown in this paper, DNM allows for an average boost of 90mV in accelerated supply voltage while bringing down the excess NBTI margin of 22.5mV to 8mV where the total budget for NBTI was 66mV.<br />
+<br />
+We also proposed an active learning framework to extract process variation from measurements and reduce test cost. Several techniques are developed to model the variation. By reusing a priori knowledge from earlier wafers, the partial test can be conducted on the forthcoming wafers to achieve the required accuracy and test cost. Experimental results show that the framework can achieve an accuracy of 2-3% relative error using only ~30% test structures for two industrial processes.<br />
+<br />
+A paper titled “A confidence-driven model for error-resilient computing” was presented at DATE 2011 describing a confidence-driven approach to highly variable and unreliable computing platforms.  The technique relies on intelligent combination of temporal and spatial redundancy to extract the benefits of both while minimizing each of their overheads.  The work has been mapped to FPGA for emulation of a CORDIC processor and shows relatively low overheads with high reliability in the face of large failure rates.  The work is joint with Intel and other faculty at Michigan (Zhang/Blaauw).<br />
+<br />
+We previously developed a novel pulse-width modulation (PWM) scheme to improve energy-performance tradeoff in global on-chip interconnect.  The technique relies on the ability to distinguish between the timing characteristics of pulses, and is susceptible to variability from a functional perspective (not just parametrically).  Hence we developed a self-calibration approach that will tune individual PWM encoder and decoders to maximize process window and performance.  The approach was demonstrated in hardware (65nm CMOS, 5mm on-chip links), showing 11% performance improvement and 2.5X lower spread in delay after self-calibration.  </p><br>
+
+  
+  
+  <p><strong>Publications:</strong></p>&quot;<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5766781' target='_blank'>Crosstalk-aware PWM-based on-chip links with self-calibration in 65nm CMOS,</a>&quot;&nbsp;J-S. Seo, D. Blaauw, and D. Sylvester.&nbsp;<i>IEEE Journal on Solid-State Circuits,&nbsp;</i>05-12-11<br><br>&quot;<a href='http://www.eecs.umich.edu/~zhengya/papers/date11.pdf' target='_blank'>A Confidence-Driven Model for Error-Resilient Computing,</a>&quot;&nbsp;C-H Chen, Y Kim, Z Zhang, D Blaauw and D Sylvester, U of Michigan, Ann Arbor; H Naeimi and S Sandhu, Intel.&nbsp;<i>Proc. Design, Automation & Test in Europe (DATE\'11),&nbsp;</i>03-17-11<br><br>&quot;<a href='http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=05653806' target='_blank'>Active learning framework for post-silicon variation extraction and test cost reduction,</a>&quot;&nbsp;C. Zhuo, K. Agarwal, D. Sylvester, and D. Blaauw.&nbsp;<i>Proc. IEEE/ACM International Conference on Computer-Aided Design 2010, pp. 508-515,&nbsp;</i>11-11-10<br><br>&quot;<a href='http://blaauw.eecs.umich.edu/getFile.php?id=426&sid=b7c408d25fe797e9f741afd322f5faef' target='_blank'>Dynamic NBTI management using a 45nm multi-degradation sensor,</a>&quot;&nbsp;P. Singh, E. Karl, D. Sylvester, and D. Blaauw.&nbsp;<i>Proc. IEEE Custom Integrated Circuits Conference 2010,&nbsp;</i>09-21-10<br><br>  
+  <p><strong>Milestones:</strong></p><p>Tapeout with ARM Cortex M3 along with the SynROs in IBM 45SOI in March 2011.</p><br><p><strong>Plans/Outlook:</strong></p><p>We await silicon results. The simulation results look very promising.</p><br> 
+</div>
+<div id="p_box_2">   
+             
+                  <p>
+                    <img src='/public_files/images/Project11_350.jpg' width='350' alt='Details of dynamic NBTI management using a subset (32) of compact BTI sensors to predict the wearout of a different set of sensors (224, serving the role of “circuit under test” for this experiment).  The left figure shows the measured data of a representative sensor and the fit to the data used to extrapolate to end of lifetime and make decisions on maximum voltage allowed (staircase data inset).  At right is the resulting distributions of degradation in the full set of 256 sensors including results without voltage boosting (black) and with boosting (red) to enhance performance by ~10% in this case while preserving lifetime in all sensors given the bound of 66mV maximum DVth.' /><p><i>Details of dynamic NBTI management using a subset (32) of compact BTI sensors to predict the wearout of a different set of sensors (224, serving the role of “circuit under test” for this experiment).  The left figure shows the measured data of a representative sensor and the fit to the data used to extrapolate to end of lifetime and make decisions on maximum voltage allowed (staircase data inset).  At right is the resulting distributions of degradation in the full set of 256 sensors including results without voltage boosting (black) and with boosting (red) to enhance performance by ~10% in this case while preserving lifetime in all sensors given the bound of 66mV maximum DVth.</i></p><br>                
+</p>
+                  <p><strong>Category:</strong></p>
+               
+                    <p>Measurement / Modeling</p><p>Design Tools / Testing</p><p>Micro-Architecture / Compilers </p>                        <br>    
+  <p><strong>Campus:</strong></p>   
+                            
+  <p>
+   
+                            <p>UCLA</p><p>UMich</p>                   
+  </p>
+                 <p><br>
+                   <p><strong>People:</strong></p><p>PIs: Dennis Sylvester (UMich), Puneet Gupta (UCLA); Graduate Students: Dave Fick (UMich), Liangzhen Lai (UCLA), Tuck-Bon Chan (UCLA, now at UCSD)</p><br><br><p><strong>Awards:</strong></p><p>Intel/CICC Student Scholarship Award, “Dynamic NBTI management using a 45nm multi-degradation sensor” (http://blaauw.eecs.umich.edu/getFile.php?id=426&sid=b7c408d25fe797e9f741afd322f5faef)</p><br><br>                 </p>
+  <p><br />
+</p>
+</div>
+</div>
+
+<p>&nbsp;</p>
+<p><a href="/research">Click here to view other Research Projects </a></p>
+</p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+
+</div>
+</div>
+
+<div class="clr"></div>
+</div>
+</div>
+
+<!--footer start-->
+<div id="footer">
+<div id="footer_in">
+<div>
+<div style="text-align: center; padding: 18px 0 0;"><img src="/templates/jofree/images/footer.jpg" width="930" height="72" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="20,18,244,57" href="http://ucsd.edu" target="_blank" />
+    <area shape="rect" coords="263,15,382,58" href="http://www.ucla.edu/" target="_blank" />
+    <area shape="rect" coords="408,13,473,61" href="http://www.umich.edu/" target="_blank" />
+    <area shape="rect" coords="503,21,648,58" href="http://www.stanford.edu/" target="_blank" />
+    <area shape="rect" coords="668,21,817,60" href="http://uci.edu/" target="_blank" />
+    <area shape="rect" coords="848,5,895,64" href="http://illinois.edu/" target="_blank" />
+  </map>
+</div>
+</div>
+</div>
+</div>
+<!--footer end-->
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

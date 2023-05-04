@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+  <name>Camel</name>
+  <version>1.1</version>
+  <creationDate>27. Februar 2008</creationDate>
+  <author>Michael Salzmann</author>
+  <authorEmail>funky.visions@googlemail.com</authorEmail>
+  <authorUrl>http://www.funky-visions.de</authorUrl>
+  <copyright>Michael Salzmann</copyright>
+  <license>Dieses Template darf sowohl privat als auch kommerziell genutzt werden. Downloaden, Weitergeben und Modifizieren ist ausdrücklich erlaubt. Lediglich der Back- sowie der Sponsorenlink im Footer darf weder geändert, noch entfernt oder unkenntlich gemacht werden. Wer diesen Link entfernen möchte, kann auf http://www.funky-visions.de eine lizenzierte, unverschlüsselte Version für 29,- Euro erwerben.</license>
+  <description>Camel ist das erste komplett auf CSS basierende Design von funky-visions.de. Es handelt sich um ein dreispaltiges Layout, optimiert fuer 1024x768 Aufloesung und hoeher sowie neuere Browser (FireFox, IE ab 6 , Safari usw.). Es ermoeglicht dem Seitenbesucher außerdem, die Schriftgroesse und die Seitenfarbe dynamisch anzupassen und besticht vor allem durch logisch durchstrukturierten Code bei einer minimalen Dateigroesse von insgesamt gerade einmal 20kB!</description>
+  <files>
+
+	<filename>php/dynamic.css.php</filename>
+	<filename>php/dynamic.inc.php</filename>
+	<filename>index.php</filename>
+	<filename>templateDetails.xml</filename>
+	<filename>template_thumbnail.png</filename>
+	<filename>images/bottom_menue_trennbalken.gif</filename>
+	<filename>images/content_div_bg.png</filename>
+	<filename>images/font_minus.gif</filename>
+	<filename>images/font_plus.gif</filename>
+	<filename>images/font_reset.gif</filename>
+	<filename>images/footer_div_bg.png</filename>
+	<filename>images/indent1.png</filename>
+	<filename>images/pfeil.gif</filename>
+	<filename>images/pfeil_liste.gif</filename>
+	<filename>images/rahmen_v.gif</filename>
+	<filename>images/top_header.png</filename>
+	<filename>images/top_menue_trennbalken.gif</filename>
+	<filename>images/logo.png</filename>
+	<filename>css/template_css.css</filename>
+	<filename>params.ini</filename>
+  </files>
+  <positions>
+    <position>left</position>
+    <position>right</position>
+    <position>top</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+	<position>user4</position>
+  </positions>
+  <params>
+    <param name="ueberschrift" type="text" label="Webseitentitel" description="Tragen Sie hier den Webseitentitel ein."></param>
+	<param name="logo" label="Eigenes Logo" type="list" default="nein" description="Eigenes Logo statt Überschrift verwenden? Ändern Sie die logo.png Datei im images-Ordner des Templates bitte entsprechend ab, wenn Sie ja wählen.">
+      <option value="ja">Ja</option>
+      <option value="nein">Nein</option>
+    </param>
+	<param name="copyright" type="text" label="Copyright" description="Tragen Sie hier das Copyright ein, welches am Ende jeder Seite erscheinen soll."></param>
+	<param name="farbwahl" label="Farbwahl" type="list" default="ja" description="Möchten Sie dem Nutzer ermögliche, die Farbe des Tempaltes zu ebeinflussen?">
+      <option value="ja">Ja</option>
+      <option value="nein">Nein</option>
+	      </param>
+    	  <param name="schriftwahl" label="Schriftgroesse" type="list" default="ja" description="Möchten Sie dem Seitenbesucher ermöglichen, die Schriftgroesse anzupassen?">
+      <option value="ja">Ja</option>
+      <option value="nein">Nein</option>
+    </param>
+	<param name="eigenefarbe" type="text" label="Eigene Farbe festlegen" description="Sie haben hier die Möglichkeit eine feste Farbe für das Template festzulegen, wenn Sie dies tun, wird die Farbwahl jedoch automatisch deaktiviert. Die eigene Farbe muss als Hexadezimale Zahl eingegeben werden, also bspw. #CC0000 für ein dunkles Rot."></param>
+  </params>
+</install>

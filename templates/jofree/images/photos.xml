@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rotator time="6000" randomplay="true" transition="circles">
+
+	<foto file="templates/mx_joofree2/images/header/header02.jpg" link="next" />
+	<foto file="templates/mx_joofree2/images/header/header03.jpg" link="next" />
+	<foto file="templates/mx_joofree2/images/header/header04.jpg" link="next" />
+	<foto file="templates/mx_joofree2/images/header/header05.jpg" link="next" />
+	<foto file="templates/mx_joofree2/images/header/header01.jpg" link="next" />
+
+</rotator>

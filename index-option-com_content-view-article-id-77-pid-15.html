@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="/index" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Variability Expedition, hardware, software, Calit2, UCSD, highly energy efficient" />
+  <meta name="title" content="Project" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="The Variability Expedition fundamentally rethinks the rigid, deterministic hardware-software interface, to propose a new class of computing machines that are not only adaptive but also highly energy efficient." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Project</title>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+<link href="/templates/system/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jofree/css/template_css.css" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="/templates/jofree/css/ie6.css" type="text/css" />
+<![endif]-->
+
+</head>
+<body>
+<div id="bgr">
+
+<div id="wrapper">
+<div id="tophead">
+<!-- BEGIN: LOGO -->
+
+<!-- END: LOGO -->
+
+
+
+</div>
+
+<div id="wrapper_2">
+<div id="holder">
+
+
+<div id="content">
+<div id="left">
+		<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Main Menu</h3>
+											<ul class="menu"><li class="item1"><a href="/"><span>Home</span></a></li><li class="item53"><a href="/research"><span>Research Projects</span></a></li><li class="item54"><a href="/testbeds"><span>Testbeds</span></a></li><li class="item55"><a href="/outreach"><span>Outreach</span></a></li><li class="item58"><a href="/people"><span>People</span></a></li><li class="item66"><a href="/news"><span>News</span></a></li><li class="item67"><a href="/events"><span>Events</span></a></li><li class="item68"><a href="/multimedia"><span>Multimedia</span></a></li><li class="item71"><a href="/publications"><span>Publications</span></a></li><li class="item72"><a href="/presentations"><span>Presentations</span></a></li><li class="item73"><a href="/downloads"><span>Tools and Datasets</span></a></li></ul>					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+<div id="main_full">
+<div class="nopad">
+
+
+
+
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p>
+      
+ <h3 style="margin-top:0px;">Aging Management at the Circuit, Architecture and Runtime Levels</h3>
+ <br>
+ <div style="overflow:hidden;">
+
+<div id="p_box_l"> 
+  <p>The broad objective, relevant to overall expedition goal, is to design opportunistic software practices that can best exploit and adapt to variations in the underlying hardware, the environment, and the applications requirements. The variations are exposed to the higher software layer, rather than hidden behind the conservative specifications of an over-designed hardware. As such, lower overall cost can be achieved with deliberately under-designed hardware with relaxed design and manufacturing constraints. <br />
+<br />
+Our activities have two broad objectives:<br />
+  1. Designing an optimization framework and control policies to find the optimal self-tuning over lifetime which guarantees functional operation in the presence of circuit aging (over a broad range of circuit aging mechanisms), subject to constraints imposed by the user applications profiles and underlying hardware. The self-tuning parameters, such as supply voltage, clock frequency, and cooling capacity, may be adjusted dynamically based on offline aging estimation method, or adaptively according to online aging estimation method for systems with built-in mechanisms for learning and forecasting real-time aging information during normal system operation. The gradual nature of aging and its dependence on dynamic factors enable such self-tuning system to be more robust and energy-efficient. <br />
+  2. Extreme low-cost techniques for extracting special failure signatures in the underlying hardware that can enable highly efficient and effective circuit failure prediction and adaptation through a wide variety of software techniques (with proper architectural support).<br />
+<br />
+An optimization method is introduced to enable efficient and scalable numerical computation of the optimal self-tuning in the presence of multiple age-related wear-out mechanisms. The presented framework uniquely seamlessly unifies both the aging mechanisms (e.g., NBTI, PBTI, and TDDB) that gradually degrade inherent circuit delay and power characteristics; with the aging mechanisms (e.g., HCI, EM, SM, GOI) that gradually degrades break-down characteristics typically accounted for in terms of FIT. The correlations and constraints among the various reliability mechanisms are inherently accounted for. Self-healing is also introduced as a potential self-tuning parameter. The objective of the constrained multi-objective optimization approach is to achieve the optimal trade-off between lifetime, overall performance, overall power, and overall reliability: by finding the optimal value of one (or some) of the attributes, subject to requirements on the other attributes. Such aging-aware design paradigm distinctively emphasizes on capturing the long term behavior and averaging the transient behavior of the system. Instead of addressing the bottleneck of targeting specific design point, by adaptively trading-off various system properties in the multi-dimensional design space, this framework empowers flexible design practice with lower overall costs, where various market opportunities can potentially be met with minimal or no design changes. The underlying framework is also expected to be fully scalable to the user-inputs (e.g., the number of degradation mechanisms, the size and type of large-scale structures and workload benchmarks). A full report for our activities is being prepared. ARM has expressed special interest in this work, and a summer internship is planned at ARM for evaluating these techniques for ARM designs. <br />
+<br />
+The goal of this project to assess efficacy of current aging management techniques used at the circuit/architecture/OS level and propose methods to deal with aging. Our first goal has been to develop a first-principles model of aging (especially NBTI) flexible enough to use at architecture-level.  </p><br>
+
+  
+  
+  <p><strong>Publications:</strong></p>&quot;<a href='http://www.stanford.edu/~boyd/papers/pdf/self_tuning_max_lifetime.pdf' target='_blank'>Self-Tuning for Maximized Lifetime Energy-Efficiency in the Presence of Circuit Aging,</a>&quot;&nbsp;Mintarno, J. Skaf, R. Zheng, J. Velamala, Y. Cao, S. Boyd, R.W. Dutton and S. Mitra.&nbsp;<i>IEEE Trans. Computer-Aided Design, pp. 760-773,&nbsp;</i>05-01-11<br><br>&quot;<a href='http://nanocad.ee.ucla.edu/pub/Main/Publications/C55_paper.pdf' target='_blank'>On the Efficacy of NBTI Mitigation Techniques,</a>&quot;&nbsp;Tuck-Boon Chan, John M. Sartori, Puneet Gupta and Rakesh Kumar.&nbsp;<i>Proc., IEEE/ACM 2011 Design, Automation and Test in Europe,&nbsp;</i>03-18-11<br><br>&quot;<a href='http://https://www.jstage.jst.go.jp/article/ipsjtsldm/4/0/4_0_2/_pdf' target='_blank'>Robust System Design,</a>&quot;&nbsp;S. Mitra, H. Cho, T. Hong, Y. Kim, H. Lee, L. Leem, Y. Li, D. Lin, E. Mintarno, S. Park, N. Patil, H. Wei and J. Zhang.&nbsp;<i>IPSJ Trans. System LSI Design Methodology 2011,&nbsp;</i>02-11-11<br><br>&quotRobust System Design to Overcome CMOS Reliability Challenges,&quot;&nbsp;S. Mitra, K. Brelsford, Y. Kim, K. Lee and Y. Li.&nbsp;<i>IEEE Journal on Emerging and Selected Topics in Circuits and Systems: Special Issue on the IEEE CAS Forum,&nbsp;</i>12-15-10<br><br>  
+  <p><strong>Milestones:</strong></p><p>We showed that in most cases, for long lifetime systems (5 years+), the benefits of dynamic reliability management (dynamic voltage scaling, activity management with scheduling, power gating, etc) are fairly limited when compared to just traditional guardbanding approaches.<br />
+<br />
+In Stanford's previous work with 90nm test chips, we demonstrated that the existence of delay fluctuations is a new signature for detecting gate-oxide early-life failures (ELF, also known as infant mortality). During this quarter, we created a test chip design plan for a 32nm CMOS technology that will be used to answer the following questions: <br />
+•	Do delay fluctuations continue to be valid signatures for gate-oxide ELF at advanced technologies using high-k/metal gate processes? – our on-going collaborations with a large semiconductor company has already demonstrated the validity of our signature – our current effort is to validate across multiple technologies; <br />
+•	How do dynamic environmental variations (e.g., temperature drift and voltage droop) affect the effectiveness of our gate-oxide ELF detection technique?; <br />
+•	Do defects causing ELF in inter- or intra-layer dielectrics (ILD) exhibit similar signatures for advanced technologies using ultra low-k (ULK) processes? <br />
+<br />
+Samsung is working very closely with us in this effort.</p><br><p><strong>Plans/Outlook:</strong></p><p>-term goals are to have a CUDA implementation of the aging simulator since runtime is still a huge bottleneck. We also plan to study potential benefits of fine-grained power gating for aging management. Also we are investigating ways to derive “optimal guardband” for aging. Longer term, getting some circuit level aging silicon data (as opposed to device-level) is a challenge.</p><br> 
+</div>
+<div id="p_box_2">   
+             
+                  <p>
+                    <img src='/public_files/images/PowerGating_350.jpg' width='350' alt='(Top) Guardbanded Vdd vs. dynamically scaled Vdd for reliability management; expected energy saving is less than 7% over 10-year lifetime. (Bottom) Power gating to manage aging: we need 6 years (out of 10-year lifetime) of power gating to get 5% improvement in performance.' /><p><i>(Top) Guardbanded Vdd vs. dynamically scaled Vdd for reliability management; expected energy saving is less than 7% over 10-year lifetime. (Bottom) Power gating to manage aging: we need 6 years (out of 10-year lifetime) of power gating to get 5% improvement in performance.</i></p><br>                
+</p>
+                  <p><strong>Category:</strong></p>
+               
+                    <p>Design Tools / Testing</p><p>Micro-Architecture / Compilers </p><p>Runtime Support</p>                        <br>    
+  <p><strong>Campus:</strong></p>   
+                            
+  <p>
+   
+                            <p>UCLA</p><p>UIUC</p><p>Stanford</p>                   
+  </p>
+                 <p><br>
+                   <p><strong>People:</strong></p><p>PIs: Puneet Gupta (UCLA), Subhasish Mitra (Stanford) and Rakesh Kumar (UIUC); Graduate Students: Tuck-Boon Chan (UCLA, now at UCSD), Liangzhen Lai (UCLA), Evelyn Mintarno and Young Moon Kim (Stanford), and John Sartori (UIUC); Undergraduate Student: Johnny Yam (UCLA)</p><br><br><p><strong>Artifacts:</strong></p><p>Release of open-source aging simulator. The simulator can take arbitrary workloads, voltage schedules, etc. Both a Matlab and a C++ version have been released, and they are available at http://nanocad.ee.ucla.edu/Main/DownloadForm. </p><br><br><p><strong>Awards:</strong></p><p>Best Paper Award, "Concurrent Autonomous Self-Test for Uncore Components in SoCs," Yanjing Li, Onur Mutlu, Donald S. Gardner and Subhasish Mitra, IEEE VLSI Test Symposium, April 2010.<br />
+<br />
+ACM/SIGDA Outstanding Dissertation Award, "Design and Fabrication of Imperfection-Immune Carbon Nanotube Digital VLSI Circuits," Nishant Patil (advised by Subhasish Mitra). URL: http://c2s2.ece.cmu.edu/news/article/2011/05/04/patil-dissertation-award/</p><br><br>                 </p>
+  <p><br />
+</p>
+</div>
+</div>
+
+<p>&nbsp;</p>
+<p><a href="/research">Click here to view other Research Projects </a></p>
+</p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+
+</div>
+</div>
+
+<div class="clr"></div>
+</div>
+</div>
+
+<!--footer start-->
+<div id="footer">
+<div id="footer_in">
+<div>
+<div style="text-align: center; padding: 18px 0 0;"><img src="/templates/jofree/images/footer.jpg" width="930" height="72" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="20,18,244,57" href="http://ucsd.edu" target="_blank" />
+    <area shape="rect" coords="263,15,382,58" href="http://www.ucla.edu/" target="_blank" />
+    <area shape="rect" coords="408,13,473,61" href="http://www.umich.edu/" target="_blank" />
+    <area shape="rect" coords="503,21,648,58" href="http://www.stanford.edu/" target="_blank" />
+    <area shape="rect" coords="668,21,817,60" href="http://uci.edu/" target="_blank" />
+    <area shape="rect" coords="848,5,895,64" href="http://illinois.edu/" target="_blank" />
+  </map>
+</div>
+</div>
+</div>
+</div>
+<!--footer end-->
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="/index" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Variability Expedition, hardware, software, Calit2, UCSD, highly energy efficient" />
+  <meta name="title" content="Project" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="The Variability Expedition fundamentally rethinks the rigid, deterministic hardware-software interface, to propose a new class of computing machines that are not only adaptive but also highly energy efficient." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Project</title>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+<link href="/templates/system/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jofree/css/template_css.css" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="/templates/jofree/css/ie6.css" type="text/css" />
+<![endif]-->
+
+</head>
+<body>
+<div id="bgr">
+
+<div id="wrapper">
+<div id="tophead">
+<!-- BEGIN: LOGO -->
+
+<!-- END: LOGO -->
+
+
+
+</div>
+
+<div id="wrapper_2">
+<div id="holder">
+
+
+<div id="content">
+<div id="left">
+		<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Main Menu</h3>
+											<ul class="menu"><li class="item1"><a href="/"><span>Home</span></a></li><li class="item53"><a href="/research"><span>Research Projects</span></a></li><li class="item54"><a href="/testbeds"><span>Testbeds</span></a></li><li class="item55"><a href="/outreach"><span>Outreach</span></a></li><li class="item58"><a href="/people"><span>People</span></a></li><li class="item66"><a href="/news"><span>News</span></a></li><li class="item67"><a href="/events"><span>Events</span></a></li><li class="item68"><a href="/multimedia"><span>Multimedia</span></a></li><li class="item71"><a href="/publications"><span>Publications</span></a></li><li class="item72"><a href="/presentations"><span>Presentations</span></a></li><li class="item73"><a href="/downloads"><span>Tools and Datasets</span></a></li></ul>					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+<div id="main_full">
+<div class="nopad">
+
+
+
+
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p>
+      
+ <h3 style="margin-top:0px;">Revisiting Fault-Tolerance in Processors</h3>
+ <br>
+ <div style="overflow:hidden;">
+
+<div id="p_box_l"> 
+  <p>For this project, we are examining ways to tolerate faults (permanent or transient) in a processor designed without conventional fault tolerant hardware. We want to examine methods to map around these faults and still produce correct functionality. More specifically, we want to examine faults injected into the Floating Point hardware as these paths generally lie on the critical path.  One way to map around these faults would allow for alternative pieces of code to be available which can map around certain hardware failures.  Should the fault condition be exercised, we could jump to an alternative version of this code which can mask this problem and produce a correctly functioning output.  </p><br>
+
+  
+  
+    
+  <p><strong>Milestones:</strong></p><p>Mapped the modified Leon3 processor design to an FPGA development board; successfully ran test program on FPGA Leon 3 and interact with this program using JTAG debugging interface; modified fault injection interface to support more precise fault injection. Specifically, faults can be injected into a particular set of FP registers.</p><br><p><strong>Plans/Outlook:</strong></p><p>Currently, we are trying to produce a piece of sparc assembly code to use for initial testing. We found that in trying to examine a compiled piece of C++ code, it was difficult to analyze the precise mapping to sparc assembly – and thus difficult to examine the meaning of particular FP registers in relation to the code. Once we have a functional piece of sparc assembly, we can examine more directly the effect of our fault injection and analyze the alternative pieces of code that can tolerate these faults. Once this has been completed, we can build upon our findings and automate parts of this process.</p><br> 
+</div>
+<div id="p_box_2">   
+             
+                  <p>
+                    <img src='/public_files/images/FPUnit_350.jpg' width='350' alt='Each arrow/line represents a register value at some point in time. In the top diagram, a permanent fault in the highest register is propagated to other registers as time advances. In the bottom diagram, we do not use the faulty register and thus the errors are not propagated.' /><p><i>Each arrow/line represents a register value at some point in time. In the top diagram, a permanent fault in the highest register is propagated to other registers as time advances. In the bottom diagram, we do not use the faulty register and thus the errors are not propagated.</i></p><br>                
+</p>
+                  <p><strong>Category:</strong></p>
+               
+                    <p>Runtime Support</p>                        <br>    
+  <p><strong>Campus:</strong></p>   
+                            
+  <p>
+   
+                            <p>UC Irvine</p><p>UIUC</p>                   
+  </p>
+                 <p><br>
+                   <p><strong>People:</strong></p><p>PI: Rakesh Kumar; Co-PIs: Nikil Dutt and Alex Nicolau (UC Irvine); Graduate Student: Anthony Brown (UIUC)</p><br><br><p><strong>Artifacts:</strong></p><p>Hardware: Altera Stratix 2 FPGA board, VHDL hardware implementation of Leon3 processor with fault injector (based of GRLIB IP Library from Gaisler Research). Software completed: the programmable interface for fault injection framework, as well as sparse matrix vector product C++ code to run as benchmark.</p><br><br>                 </p>
+  <p><br />
+</p>
+</div>
+</div>
+
+<p>&nbsp;</p>
+<p><a href="/research">Click here to view other Research Projects </a></p>
+</p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+
+</div>
+</div>
+
+<div class="clr"></div>
+</div>
+</div>
+
+<!--footer start-->
+<div id="footer">
+<div id="footer_in">
+<div>
+<div style="text-align: center; padding: 18px 0 0;"><img src="/templates/jofree/images/footer.jpg" width="930" height="72" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="20,18,244,57" href="http://ucsd.edu" target="_blank" />
+    <area shape="rect" coords="263,15,382,58" href="http://www.ucla.edu/" target="_blank" />
+    <area shape="rect" coords="408,13,473,61" href="http://www.umich.edu/" target="_blank" />
+    <area shape="rect" coords="503,21,648,58" href="http://www.stanford.edu/" target="_blank" />
+    <area shape="rect" coords="668,21,817,60" href="http://uci.edu/" target="_blank" />
+    <area shape="rect" coords="848,5,895,64" href="http://illinois.edu/" target="_blank" />
+  </map>
+</div>
+</div>
+</div>
+</div>
+<!--footer end-->
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

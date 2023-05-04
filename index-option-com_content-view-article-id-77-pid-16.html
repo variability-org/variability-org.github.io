@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="/index" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Variability Expedition, hardware, software, Calit2, UCSD, highly energy efficient" />
+  <meta name="title" content="Project" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="The Variability Expedition fundamentally rethinks the rigid, deterministic hardware-software interface, to propose a new class of computing machines that are not only adaptive but also highly energy efficient." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Project</title>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+<link href="/templates/system/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jofree/css/template_css.css" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="/templates/jofree/css/ie6.css" type="text/css" />
+<![endif]-->
+
+</head>
+<body>
+<div id="bgr">
+
+<div id="wrapper">
+<div id="tophead">
+<!-- BEGIN: LOGO -->
+
+<!-- END: LOGO -->
+
+
+
+</div>
+
+<div id="wrapper_2">
+<div id="holder">
+
+
+<div id="content">
+<div id="left">
+		<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Main Menu</h3>
+											<ul class="menu"><li class="item1"><a href="/"><span>Home</span></a></li><li class="item53"><a href="/research"><span>Research Projects</span></a></li><li class="item54"><a href="/testbeds"><span>Testbeds</span></a></li><li class="item55"><a href="/outreach"><span>Outreach</span></a></li><li class="item58"><a href="/people"><span>People</span></a></li><li class="item66"><a href="/news"><span>News</span></a></li><li class="item67"><a href="/events"><span>Events</span></a></li><li class="item68"><a href="/multimedia"><span>Multimedia</span></a></li><li class="item71"><a href="/publications"><span>Publications</span></a></li><li class="item72"><a href="/presentations"><span>Presentations</span></a></li><li class="item73"><a href="/downloads"><span>Tools and Datasets</span></a></li></ul>					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+<div id="main_full">
+<div class="nopad">
+
+
+
+
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p>
+      
+ <h3 style="margin-top:0px;">Abstractions for Representing Software-Visible Manifestations of Hardware Variations</h3>
+ <br>
+ <div style="overflow:hidden;">
+
+<div id="p_box_l"> 
+  <p>Our team is investigating abstractions for representing software-visible manifestations of hardware variations at the microarchitectural and architectural/operating system layers, and software for opportunistically exploiting variability using compiler-generated code, and run-time operating system services. <br />
+<br />
+Specific goals of our team (together with Prof. Rakesh Kumar at UIUC), for this project include:<br />
+<br />
+  • A responsive architecture-programmer interface that extends the traditional fixed ISA specification of a computing machine to one where the ISA functionality and performance are mutable across different instances of the hardware, different invocations of an application, and within the lifetime of an application.<br />
+  • Compiler strategies for managing and exploiting variability at the architecture-programmer interface, using: semantic annotation and analysis to capture/exploit application and human knowledge; “mutable” ISAs to enable generation of alternative-but-equivalent code fragments that enable execution resilience; and software-driven variability monitors that can sample/inspect behavioral changes in the hardware.<br />
+  • A responsive runtime interface that provides necessary capabilities for application algorithm, just-in-time compilation, and OS services to formulate a coordinated response to variability in hardware’s specification.<br />
+  • A software virtualization layer that presents a uniform programmer interface for distributed on-chip memories, and dynamic allocation and memory management techniques to handle variability-induced faults in the distributed on-chip memories.<br />
+  <br />
+Our objectives for the past quarter have been focused on understanding the interfaces required to enable programmer and compiler exploitation of hardware variability, and exploiting RAID-like notions to achieve a reliable software virtualization layer to manage distributed on-chip memories.  </p><br>
+
+  
+  
+  <p><strong>Publications:</strong></p>&quot;<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5763191&tag=1' target='_blank'>E-RoC: Embedded Raids-on-Chip for Low Power Distributed Dynamically Managed Reliable Memories,</a>&quot;&nbsp;L.A.D. Bathen and N.D. Dutt, UC Irvine.&nbsp;<i>Proc., IEEE/ACM 2011 Design, Automation and Test in Europe,&nbsp;</i>03-18-11<br><br>  
+  <p><strong>Milestones:</strong></p><p>Work completed: Luis Bathen has implemented a prototype E-RoC (Embedded Raids-on-Chip) simulation platform for chip multi-processors (CMPs) deploying distributed scratch-pad memories (SPM) with a shared bus architecture.  Preliminary simulation experiments on multimedia benchmarks running on a CMP architecture with distributed SPMs have shown that E-RoC’s fully distributed redundant reliable memory subsystem reduces on-chip memory power consumption by up to 85% and latency up to 61% over traditional reliability approaches that use parity/cyclic hybrids for error checking and correction.</p><br><p><strong>Plans/Outlook:</strong></p><p>Two collaborative opportunities are being pursued with the larger Expeditions team:<br />
+<br />
+  i. With Prof. Puneet Gupta (UCLA), we are investigating opportunities for the compiler to exploit variations in sleep power at the compiler and microarchitectural levels; and<br />
+<br />
+  ii. With Prof. Rakesh Kumar (UIUC), we are investigating mutation sets to withstand process-variation-induced faults in microarchitectural components.</p><br> 
+</div>
+<div id="p_box_2">   
+             
+                  <p>
+                    <img src='/public_files/images/ERocEmbedded_350.jpg' width='350' alt='Concept of Embedded RAIDs-on-Chip (E-RoC). E-RoC is composed of eight mutually dependent components (A through I) that are used to create a customized E-RoC Manager for the specific settings of each component. (See Publications)' /><p><i>Concept of Embedded RAIDs-on-Chip (E-RoC). E-RoC is composed of eight mutually dependent components (A through I) that are used to create a customized E-RoC Manager for the specific settings of each component. (See Publications)</i></p><br>                
+</p>
+                  <p><strong>Category:</strong></p>
+               
+                    <p>Micro-Architecture / Compilers </p><p>Runtime Support</p>                        <br>    
+  <p><strong>Campus:</strong></p>   
+                            
+  <p>
+   
+                            <p>UC Irvine</p><p>UIUC</p>                   
+  </p>
+                 <p><br>
+                   <p><strong>People:</strong></p><p>PIs: Nikil Dutt and Alex Nicolau (UC Irvine), Rakesh Kumar (UIUC); Graduate Students: Luis A.D. Bathen, Arup Chakraborty, and Marco Cesarano</p><br><br>                 </p>
+  <p><br />
+</p>
+</div>
+</div>
+
+<p>&nbsp;</p>
+<p><a href="/research">Click here to view other Research Projects </a></p>
+</p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+
+</div>
+</div>
+
+<div class="clr"></div>
+</div>
+</div>
+
+<!--footer start-->
+<div id="footer">
+<div id="footer_in">
+<div>
+<div style="text-align: center; padding: 18px 0 0;"><img src="/templates/jofree/images/footer.jpg" width="930" height="72" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="20,18,244,57" href="http://ucsd.edu" target="_blank" />
+    <area shape="rect" coords="263,15,382,58" href="http://www.ucla.edu/" target="_blank" />
+    <area shape="rect" coords="408,13,473,61" href="http://www.umich.edu/" target="_blank" />
+    <area shape="rect" coords="503,21,648,58" href="http://www.stanford.edu/" target="_blank" />
+    <area shape="rect" coords="668,21,817,60" href="http://uci.edu/" target="_blank" />
+    <area shape="rect" coords="848,5,895,64" href="http://illinois.edu/" target="_blank" />
+  </map>
+</div>
+</div>
+</div>
+</div>
+<!--footer end-->
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

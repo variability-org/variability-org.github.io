@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="/index" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Variability Expedition, hardware, software, Calit2, UCSD, highly energy efficient" />
+  <meta name="title" content="Project" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="The Variability Expedition fundamentally rethinks the rigid, deterministic hardware-software interface, to propose a new class of computing machines that are not only adaptive but also highly energy efficient." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Project</title>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+<link href="/templates/system/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jofree/css/template_css.css" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="/templates/jofree/css/ie6.css" type="text/css" />
+<![endif]-->
+
+</head>
+<body>
+<div id="bgr">
+
+<div id="wrapper">
+<div id="tophead">
+<!-- BEGIN: LOGO -->
+
+<!-- END: LOGO -->
+
+
+
+</div>
+
+<div id="wrapper_2">
+<div id="holder">
+
+
+<div id="content">
+<div id="left">
+		<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Main Menu</h3>
+											<ul class="menu"><li class="item1"><a href="/"><span>Home</span></a></li><li class="item53"><a href="/research"><span>Research Projects</span></a></li><li class="item54"><a href="/testbeds"><span>Testbeds</span></a></li><li class="item55"><a href="/outreach"><span>Outreach</span></a></li><li class="item58"><a href="/people"><span>People</span></a></li><li class="item66"><a href="/news"><span>News</span></a></li><li class="item67"><a href="/events"><span>Events</span></a></li><li class="item68"><a href="/multimedia"><span>Multimedia</span></a></li><li class="item71"><a href="/publications"><span>Publications</span></a></li><li class="item72"><a href="/presentations"><span>Presentations</span></a></li><li class="item73"><a href="/downloads"><span>Tools and Datasets</span></a></li></ul>					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+<div id="main_full">
+<div class="nopad">
+
+
+
+
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p>
+      
+ <h3 style="margin-top:0px;">Variability in Current Computing Platforms</h3>
+ <br>
+ <div style="overflow:hidden;">
+
+<div id="p_box_l"> 
+  <p>The goal of this project was to measure, characterize and quantify the extent of variability that we can observe in current computing platforms starting from embedded sensors to mobile platforms all the way to desktop and server machines. The objective of the latest quarter was to instrument several platforms that we received from Intel for detailed power measurements and a fine granularity.  Based on these platforms we experimented with various power modeling techniques to observe their efficacy on modern computing platforms with increasing amount of hardware complexity. We further measured the power variability across different parts of the same processor type to see the effect of it on the power modeling. <br />
+<br />
+In the first quarter, the team instrumented a server platform (Willowbrook) and two mobile platforms (calpella and sandy bridge) and different sensors (CC2530 based SoC sensors) for detailed power measurements. Based on the mobile calpella platform we then proceeded to evaluate the effectiveness of power modeling techniques by using software and hardware performance counters available from the OS and the hardware. The current understanding from the state of art research is that models work well to predict power. We then experimented with various power models, including linear regression, non-linear regression and support vector machines and state of the art feature selection mechanisms such as Lasso (glmnet). Our results show that power models only work for certain situations and do not work for (a)modern systems that do not have high base power; (b) systems that are multi-core which adds complexity; (c) for predicting detailed power at a subsystem level; (d) systems in which the detailed power states are hidden or; (e) platforms in which the subsystems exhibit extremely fine grained complex power states such as power gating in modern processors. <br />
+<br />
+Our evaluations on modern systems show significant power prediction error both at system levels and for individual subsystems such as CPUs across a wide variety of benchmarks. Furthermore we show that when variability is added to the mix the power prediction models become even worse. In our experiments with the identical base calpella system but two instances of the same core i5-540 processor we measured a 13 percent variability in power consumption for the same benchmarks with everything else kept constant.   </p><br>
+
+  
+  
+  <p><strong>Publications:</strong></p>&quot;<a href='http://cseweb.ucsd.edu/~snoeren/papers/power-atc11.pdf' target='_blank'>Evaluating the Effectiveness of Model-Based Power Characterization,</a>&quot;&nbsp;John C. McCullough, Yuvraj Agarwal, Jaideep Chandrashekar, Sathyanarayan Kuppuswamy, Alex C. Snoeren, Rajesh K. Gupta.&nbsp;<i>USENIX Annual Technical Conference (USENIX ATC 2011),&nbsp;</i>06-15-11<br><br>  
+   
+</div>
+<div id="p_box_2">   
+             
+                  <p>
+                    <img src='/public_files/images/ComputingPlatforms_350.jpg' width='350' alt='(Top) Power breakdown for sample workloads; (bottom) Variability in power consumption measured across two CPUs of the exact same type: Intel Core i5-540M. Core 1 shows a 11% variability between the two processors, while Core 2 shows 11.2% variability. Measurements are averaged across ten runs for each case, with standard deviation marked.' /><p><i>(Top) Power breakdown for sample workloads; (bottom) Variability in power consumption measured across two CPUs of the exact same type: Intel Core i5-540M. Core 1 shows a 11% variability between the two processors, while Core 2 shows 11.2% variability. Measurements are averaged across ten runs for each case, with standard deviation marked.</i></p><br>                
+</p>
+                  <p><strong>Category:</strong></p>
+               
+                    <p>Measurement / Modeling</p><p>Application / Testbeds</p>                        <br>    
+  <p><strong>Campus:</strong></p>   
+                            
+  <p>
+   
+                            <p>UCSD</p>                   
+  </p>
+                 <p><br>
+                   <p><strong>People:</strong></p><p>PIs: Yuvraj Agarwal and Rajesh Gupta (UCSD); Graduate students: John McCullough and Sathyanarayan Kupuswamy (UCSD); Industry collaborator: Jaideep Chandrashekhar (Intel)</p><br><br><p><strong>Artifacts:</strong></p><p>We plan to eventually make the calpella and the willowbrook platforms available for remote access for other members of the team to run jobs on them as needed. Right now the platform is being extensively used by our own team for measurements. We also plan to share the wireless sensor design with other members of the team especially UCLA for any variability power measurements and/or adaptive duty-cycling experiments.</p><br><br>                 </p>
+  <p><br />
+</p>
+</div>
+</div>
+
+<p>&nbsp;</p>
+<p><a href="/research">Click here to view other Research Projects </a></p>
+</p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+
+</div>
+</div>
+
+<div class="clr"></div>
+</div>
+</div>
+
+<!--footer start-->
+<div id="footer">
+<div id="footer_in">
+<div>
+<div style="text-align: center; padding: 18px 0 0;"><img src="/templates/jofree/images/footer.jpg" width="930" height="72" border="0" usemap="#Map" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="20,18,244,57" href="http://ucsd.edu" target="_blank" />
+    <area shape="rect" coords="263,15,382,58" href="http://www.ucla.edu/" target="_blank" />
+    <area shape="rect" coords="408,13,473,61" href="http://www.umich.edu/" target="_blank" />
+    <area shape="rect" coords="503,21,648,58" href="http://www.stanford.edu/" target="_blank" />
+    <area shape="rect" coords="668,21,817,60" href="http://uci.edu/" target="_blank" />
+    <area shape="rect" coords="848,5,895,64" href="http://illinois.edu/" target="_blank" />
+  </map>
+</div>
+</div>
+</div>
+</div>
+<!--footer end-->
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document mod_praiseshow*/
+
+div.menuContainer {
+padding: 0px;
+margin: 0px;
+opacity: 0;
+filter: alpha(opacity = 0);
+}
+div.horizontalMenuContainer, div.verticalMenuContainer, div.sub-horizontalMenuContainer, div.sub-verticalMenuContainer, div.sub-singleMenuContainer {
+position:absolute;
+left: 0px;
+top: 0px;
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+opacity: 0;
+filter: alpha(opacity = 0);
+z-index: 100;
+}
+ul.horizontalMenuContainer, ul.verticalMenuContainer, ul.singleMenuContainer {
+margin: 0px;
+padding: 0px;
+list-style: none;
+overflow: hidden;
+}
+ul.horizontalMenuContainer {
+margin:0 !important;
+}
+ul.verticalMenuContainer {
+font-size:0.8em;
+margin:0 !important;
+}
+ul.singleMenuContainer {
+float: left;
+}
+ul.singleMenuContainer ul.singleMenuContainer {
+border: 0px;
+}
+#menuContainer li.horizontalMenuItem {
+float: left;
+}
+#menuContainer li.verticalMenuItem {
+float: none;
+display: block;
+clear: both;
+}
+#menuContainer li.singleMenuItem {
+font-weight: bold;
+display: inline;
+float: left;
+}
+#menuContainer li.singleMenuItem li.singleMenuItem {
+font-weight: normal;
+display: block;
+clear: both;
+}
+a.horizontalMenuItemText, a.verticalMenuItemText, a.singleMenuItemText {
+/* We need the background color here for IE7. If not, the links do not fill horizontally and MouseOver fires */
+margin: 0px;
+padding: 5px;
+text-decoration: none;
+display: block;
+}
+a.horizontalMenuItemText {}
+a.verticalMenuItemText {
+display:block !important;
+padding:5px 10px !important;
+width:100% !important;
+}
+a.singleMenuItemText {}
+

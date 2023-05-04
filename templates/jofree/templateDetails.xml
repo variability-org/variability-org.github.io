@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>mx_joofree2</name>
+	<creationDate>12 Jun 2008</creationDate>
+	<author>mixwebtemplates.com</author>
+	<copyright>www.mixwebtemplates.com.</copyright>
+	<authorEmail>joomla@mixwebtemplates.com</authorEmail>
+	<authorUrl>www.mixwebtemplates.com</authorUrl>
+	<version>1.5</version>
+	<description>Joomla1.5 template from mixwebtemplates.com.</description>
+	<files>
+		<filename>footer.php</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<folder>html/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+	<filename>images/img1.tif</filename><filename>images/img2.tif</filename></files>
+	
+	<positions>
+		<position>left</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>right</position>
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="showLogo" type="radio" default="1" label="Show Logo" description="Show Logo or Hide Logo and convert to Module Position">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showFlashheader" type="radio" default="1" label="Show Flashheader" description="Show/Hide Flashheader">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showDate" type="radio" default="1" label="Show Date" description="Show or Hide the Date Display">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showBreadcrumbs" type="radio" default="1" label="Show Breadcrumbs" description="Show/Hide the Breadcrumbs">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+    </params>
+
+</install>

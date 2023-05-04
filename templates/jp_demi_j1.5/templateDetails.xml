@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+  <name>jp_demi_j1.5</name>
+  <version>1.0</version>
+  <creationDate>Oct 09</creationDate>
+  <author>JoomlaPraise</author>
+  <authorEmail>support@joomlapraise.com</authorEmail>
+  <authorUrl>http://www.joomlapraise.com</authorUrl>
+  <copyright>Copyright 2009 JoomlaPraise, All rights reserved.</copyright>
+  <description>Demi Template</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>component.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>themes.php</filename>
+    <filename>css/template.css</filename>
+	<filename>css/design.css</filename>
+	<filename>params.ini</filename>    
+	
+	<filename>images/bar.gif</filename>
+	<filename>images/logo.gif</filename>
+	<filename>images/gradient.png</filename>
+	<filename>images/menu_bullet.png</filename>
+	<filename>images/menu_bullet2.png</filename>
+	<filename>images/menu_bullet3.png</filename>
+	<filename>images/accept.png</filename>
+    <filename>images/bullet1.png</filename>
+    <filename>images/bullet2.png</filename>
+    <filename>images/bullet3.png</filename>
+    <filename>images/bullet4.png</filename>
+    <filename>images/bullet_green.png</filename>
+    <filename>images/bullet_pink.png</filename>
+    <filename>images/bullet_red.png</filename>
+    <filename>images/clock.png</filename>
+    <filename>images/color_swatch.png</filename>
+    <filename>images/cup.png</filename>
+    <filename>images/date.png</filename>
+    <filename>images/drink.png</filename>
+    <filename>images/edit.png</filename>
+    <filename>images/emailButton.png</filename>
+    <filename>images/emoticon_smile.png</filename>
+    <filename>images/exclamation.png</filename>
+    <filename>images/heart.png</filename>
+    <filename>images/music.png</filename>
+    <filename>images/pdf_button.png</filename>
+    <filename>images/printButton.png</filename>
+    <filename>images/rainbow.png</filename>
+    <filename>images/sport_golf.png</filename>
+    <filename>images/sport_tennis.png</filename>
+    <filename>images/star.png</filename>
+    <filename>images/tick.png</filename>
+    <filename>images/user_female.png</filename>
+    <filename>images/user_suit.png</filename>
+    <filename>images/status-alert.png</filename>
+    <filename>images/status-download.png</filename>
+    <filename>images/status-info.png</filename>
+    <filename>images/status-note.png</filename>
+    <filename>images/weblink.png</filename>
+	
+		
+    <filename>html/com_content/category/default_items.php</filename>
+    <filename>html/com_content/category/index.html</filename>
+    <filename>html/mod_archive/default.php</filename>
+    <filename>html/mod_archive/index.html</filename>
+    <filename>html/mod_banners/default.php</filename>
+    <filename>html/mod_banners/index.html</filename>
+    <filename>html/mod_breadcrumbs/default.php</filename>
+    <filename>html/mod_breadcrumbs/index.html</filename>
+    <filename>html/mod_feed/default.php</filename>
+    <filename>html/mod_feed/index.html</filename>
+    <filename>html/mod_footer/default.php</filename>
+    <filename>html/mod_footer/index.html</filename>
+    <filename>html/mod_login/default.php</filename>
+    <filename>html/mod_login/index.html</filename>
+    <filename>html/mod_mainmenu/default.php</filename>
+    <filename>html/mod_mainmenu/index.html</filename>
+    <filename>html/mod_newsflash/_item.php</filename>
+    <filename>html/mod_newsflash/horiz.php</filename>
+    <filename>html/mod_newsflash/vert.php</filename>
+    <filename>html/mod_newsflash/index.html</filename>
+    <filename>html/mod_poll/default.php</filename>
+    <filename>html/mod_poll/index.html</filename>
+    <filename>html/mod_stats/default.php</filename>
+    <filename>html/mod_stats/index.html</filename>
+    <filename>html/mod_syndicate/default.php</filename>
+    <filename>html/mod_syndicate/index.html</filename>
+    <filename>html/editor_content.css</filename>
+    <filename>html/modules.php</filename>
+    <filename>html/pagination.php</filename>
+    <filename>html/index.html</filename>
+	
+	<filename>assets/cmsmarketconnect/cmsmarketconnect.php</filename>
+    <filename>assets/cmsmarketconnect/cmsmconnect_logo.png</filename>
+    <filename>assets/cmsmarketconnect/index.html</filename>
+    <filename>assets/cmsmarketconnect/template.php</filename>
+	
+  </files>
+  <positions>
+    <position>left</position>
+    <position>right</position>
+    <position>top</position>
+    <position>advert1</position>
+    <position>advert2</position>
+    <position>advert3</position>
+    <position>advert4</position>
+    <position>advert5</position>
+    <position>advert6</position>
+    <position>advert7</position>
+    <position>bottom</position>
+    <position>banner</position>
+    <position>breadcrumb</position>
+    <position>inset</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+    <position>user4</position>
+    <position>user5</position>
+    <position>user6</position>
+    <position>user7</position>
+    <position>user8</position>
+    <position>user9</position>
+    <position>user10</position>
+    <position>user11</position>
+    <position>user12</position>
+    <position>user13</position>
+    <position>user14</position>
+    <position>user15</position>
+    <position>debug</position>
+    <position>footer</position>
+  </positions>
+  <languages>
+    <language tag="en-GB">en-GB.tpl_jp_demi_j1.5.ini</language>
+  </languages>
+  <administration>
+    <languages folder="admin">
+      <language tag="en-GB">en-GB.tpl_jp_demi_j1.5.ini</language>
+    </languages>
+  </administration>
+  <params addpath="/templates/jp_demi_j1.5/assets/cmsmarketconnect">
+	<param name="backgroundColor" type="text" default="" label="Custom Background Color" description="Type a custom background color for the template(example: #555555)" />
+	<param name="containerColor" type="text" default="" label="Custom Container Background Color" description="Type a custom container background color for the template(example: #555555)" />
+    <param name="fontFamily" type="list" default="arial" label="Body Font Family" description="Choose your font family">
+      <option value="arial">Arial, Helvetica, sans-serif</option>
+      <option value="times">"Times New Roman", Times, serif</option>
+      <option value="courier">"Courier New", Courier, monospace</option>
+      <option value="georgia">Georgia,"Times New Roman", Times, serif</option>
+    </param>
+    <param name="headingFontFamily" type="list" default="arial" label="Heading Font Family" description="Choose your font family">
+      <option value="arial">Arial, Helvetica, sans-serif</option>
+      <option value="times">"Times New Roman", Times, serif</option>
+      <option value="courier">"Courier New", Courier, monospace</option>
+      <option value="georgia">Georgia,"Times New Roman", Times, serif</option>
+    </param>
+    <param name="fontColor" type="text" default="" label="Custom Font Color" description="Type A Hexadecimal Color(#123456) for the font color(Do forget to include the pound(#) sign)" />
+    <param name="headingColor" type="text" default="" label="Custom Heading Color" description="Type A Hexadecimal Color(#123456) for the heading color(Do forget to include the pound(#) sign)" />
+    <param name="linkColor" type="text" default="" label="Custom Link Color" description="Type A Hexadecimal Color(#123456) for the links color(Do forget to include the pound(#) sign)" />
+    <param name="linkHoverColor" type="text" default="" label="Custom Link Hover Color" description="Type A Hexadecimal Color(#123456) for the link hover color(Do forget to include the pound(#) sign)" />
+	<param name="moveLogo" type="radio" default="1" label="Move Logo" description="Move the logo to the left side of its container">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+	<param name="jp_demi_j1.5" label="Version Information" description="Up to date version, support, and review information from CMS Market." type="cmsmarketconnect" />
+	</params>
+</install>
